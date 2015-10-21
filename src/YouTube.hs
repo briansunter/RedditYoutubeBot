@@ -46,7 +46,7 @@ data AccessTokenCredentials = AccessTokenCredentials {
     clientRefreshToken :: Text
     }
 
-googleBaseURL= "https://www.googleapis.com/youtube/v3" :: String
+googleBaseURL = "https://www.googleapis.com/youtube/v3" :: String
 googlePlaylistAPI =  googleBaseURL ++ "/playlists?part=snippet,status"
 googleItemAPI = googleBaseURL ++ "/playlistItems?part=snippet"
 refreshTokenFilename = "refreshtoken"
